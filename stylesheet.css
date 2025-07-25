@@ -358,7 +358,6 @@ header h1 {
 .pkp_footer_content {
   width: 100%;
   margin-top: 0;
-  
 }
 
 .footer {
@@ -376,6 +375,7 @@ header h1 {
 
 .row-1 {
   justify-content: left;
+  width: 100%;
 }
 
 .footer-logo {
@@ -383,11 +383,10 @@ header h1 {
   height: 90px;
 }
 
-.row-2,
-.row-3 {
+.row-2 {
   justify-content: center;
   text-align: left;
-  max-width: 600px;
+  width: 100%;
 }
 
 .footer-column {
@@ -395,8 +394,8 @@ header h1 {
 }
 
 .footer-bottom {
-  background-color: #333;
-  color: white;
+  border-top: 2px #333;
+  color: #080808;
   padding: 10px 0;
   margin-top: 20px;
 }
@@ -407,17 +406,126 @@ header h1 {
 }
 
 .footer-bottom a {
-  color: #f4f4f4;
+  color: #781315;
   text-decoration: none;
+}
+
+.inline-block {
+  display: inline-block;
 }
 
 .footer-bottom a:hover {
   text-decoration: underline;
 }
 
+.footer-bottom img {
+  max-width: 100%;
+  width: auto;
+  height: auto;
+  border-style: none;
+}
+
 .policies-container {
   width: 300px;
   font-family: Arial, sans-serif;
+}
+
+/*btn download*/
+/* Base Button Style */
+.download-btn {
+  width: auto;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 8px;
+  border: 2px solid #781315; /* Maroon border */
+  color: #781315;
+  font-size: 1em;
+  font-weight: 400;
+  background-color: transparent;
+  cursor: pointer;
+  transition: all 0.3s ease; /* Smooth transition */
+  border-radius: 5px;
+}
+
+.download-btn img {
+  width: 64px; /* Set a fixed width for the icon */
+  height: 64px; /* Set a fixed height for the icon */
+}
+
+/* Hover Effect */
+.download-btn:hover {
+  background-color: #781315; /* Maroon background on hover */
+  border-color: #781315; /* Ensure the border matches the background */
+  color: white;
+}
+
+/*indexing*/
+
+/* Base Button Style */
+.index {
+  display: inline-block;
+  margin: 2px; /* Space between buttons */
+  border: 2px solid #781315; /* Maroon border */
+  background-color: transparent;
+  cursor: pointer;
+  transition: all 0.3s ease; /* Smooth transition */
+  border-radius: 8px;
+  text-align: center;
+}
+
+/* Style for images inside the buttons */
+.index img {
+  width: auto; /* Fixed width for the image */
+  height: 64px; /* Fixed height for the image */
+  transition: transform 0.3s ease; /* Smooth scaling effect on hover */
+}
+
+/* Hover effect on the button */
+.index:hover {
+  background-color: #781315; /* Maroon background on hover */
+  border-color: #781315; /* Ensure border matches the background */
+}
+
+.index:hover img {
+  transform: scale(1.1); /* Scale up the image slightly on hover */
+  filter: brightness(0) invert(1); /* Invert the image color to white on hover */
+}
+
+/* Base Button Style */
+.tools-btn {
+  display: inline-block;
+  margin: 2px; /* Space between buttons */
+  border: 2px solid #781315; /* Maroon border */
+  background-color: transparent;
+  cursor: pointer;
+  transition: all 0.3s ease; /* Smooth transition */
+  border-radius: 8px;
+  text-align: center;
+}
+
+/* Style for images inside the buttons */
+.tools-btn img {
+  width: auto; /* Fixed width for the image */
+  height: 64px; /* Fixed height for the image */
+  transition: transform 0.3s ease; /* Smooth scaling effect on hover */
+}
+
+/* Hover effect on the button */
+.tools-btn:hover {
+  background-color: #781315; /* Maroon background on hover */
+  border-color: #781315; /* Ensure border matches the background */
+}
+
+.tools-btn:hover img {
+  transform: scale(1.1); /* Scale up the image slightly on hover */
+  filter: brightness(0) invert(1); /* Invert the image color to white on hover */
+}
+
+/*sidebar*/
+.title {
+  font-size: 2em;
+  font-weight: 600;
 }
 
 .policy-item {
@@ -436,7 +544,30 @@ header h1 {
   color: white;
 }
 
+.page_search .submit button {
+  position: relative;
+  background-color: white; /* White background */
+  color: maroon; /* Maroon text color */
+  transition: background-color 0.3s, color 0.3s; /* Smooth transition for hover effects */
+}
+
+.page_search .submit button:hover {
+  background-color: maroon; /* Maroon background on hover */
+  color: white; /* White text color on hover */
+}
+
+.page_search .submit button svg {
+  fill: maroon; /* Maroon color for the icon */
+  transition: fill 0.3s; /* Smooth transition for icon color change */
+}
+
+.page_search .submit button:hover svg {
+  fill: white; /* White icon color on hover */
+}
+
 /*brand PKP*/
 .pkp_brand_footer {
   display: none;
 }
+
+/* ----dashboard css------*/
