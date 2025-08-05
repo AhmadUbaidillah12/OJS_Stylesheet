@@ -1,0 +1,29 @@
+<h2>EDITOR IN CHIEF</h2>
+<div class="editor-card"><img class="editor-photo" src="https://via.placeholder.com/100x100?text=MF+Faiz" alt="Muhammad Fauzinudin Faiz">
+<div class="editor-info">
+<div class="editor-name"><input id="editor1" class="checkbox" type="checkbox"> <label for="editor1">Muhammad Fauzinudin Faiz</label></div>
+<div class="editor-id">Scopus ID: 56737195700</div>
+<div class="editor-id">WoS ID: AGC-6194-2022</div>
+<div class="editor-id">Sinta ID: 6686021</div>
+<div class="editor-id">Scholar ID: E5CQILQAAAAJ</div>
+<div class="editor-affiliation">Universitas Islam Negeri Kiai Haji Achmad Siddiq Jember, Indonesia</div>
+</div>
+</div>
+<hr class="section-divider">
+<h2>MANAGING EDITOR</h2>
+<div class="editor-card"><img class="editor-photo" src="https://via.placeholder.com/100x100?text=ZZ+Ali" alt="Zezen Zainul Ali">
+<div class="editor-info">
+<div class="editor-name"><input id="editor2" class="checkbox" type="checkbox"> <label for="editor2">Zezen Zainul Ali</label></div>
+<div class="editor-id">Scopus ID: 58664875800</div>
+<div class="editor-id">Scholar ID: wT-TxHcAAAAJ</div>
+<div class="editor-affiliation">Universitas Islam Negeri Sunan Kalijaga Yogyakarta, Indonesia</div>
+</div>
+</div>
+<div class="editor-card"><img class="editor-photo" src="https://via.placeholder.com/100x100?text=AA+Aouich" alt="Abdelmalek Aouich">
+<div class="editor-info">
+<div class="editor-name"><input id="editor3" class="checkbox" type="checkbox"> <label for="editor3">Abdelmalek Aouich</label></div>
+<div class="editor-id">Scopus ID: 59696029500</div>
+<div class="editor-id">Scholar ID: OUxiNMYAAAAJ</div>
+<div class="editor-affiliation">Université Sidi Mohamed Ben Abdellah De Fez, Morocco – North Africa</div>
+</div>
+</div>

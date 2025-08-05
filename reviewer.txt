@@ -1,0 +1,8 @@
+<div class="reviewer-card"><img class="reviewer-photo" src="avatar.png" alt="Reviewer Photo">
+<div class="reviewer-info">
+<div class="reviewer-name">Wael B. Hallaq</div>
+<div class="reviewer-id"><span class="icon scopus">????</span> <a class="scopus-link" href="#">Scopus ID: 6508388365</a></div>
+<div class="reviewer-id"><span class="icon scholar">????</span> <a class="scholar-link" href="#">Scholar ID: jyRKYZ0cABJ</a></div>
+<div class="reviewer-affiliation">Middle Eastern, South Asian, and African Studies (MESAAS) - Columbia University</div>
+</div>
+</div>
